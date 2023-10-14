@@ -1,0 +1,37 @@
+@use '@carbon/react' as * with ($font-path: '@ibm/plex');
+
+#root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.select-all {
+    width: 100%;
+    max-width: 300px;
+}
+
+.select-bottom {
+    font-size: 12px;
+    color:#666;
+    line-height: 20px;
+}
+
+.cds--modal {
+    z-index: 9999;
+}
+
+.categories-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.category-column {
+    flex: 1;
+    margin: $spacing-09 0 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #eee;
+}
